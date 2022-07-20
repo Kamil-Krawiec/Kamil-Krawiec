@@ -25,10 +25,10 @@
 <table>
     <tr>
         <td valign="top">
-            <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kamil-krawiec&show_icons=true&locale=en&layout=compact" alt="kamil-krawiec" height="200"/>
+            <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=kamil-krawiec&show_icons=true&theme=dracula&locale=en&layout=compact" alt="kamil-krawiec" height="200"  />
         </td>
         <td valign="top">
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=kamil-krawiec&show_icons=true&locale=en" alt="kamil-krawiec" height="200"/>
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=kamil-krawiec&show_icons=true&theme=dracula&locale=en" alt="kamil-krawiec" height="200"/>
         </td>
     </tr>
 </table>
