@@ -19,14 +19,29 @@
 
 
 
+
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
+
+<p>
+
+</p>
+
 ## My github stats:
 <table>
     <tr>
         <td valign="top">
-            <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=kamil-krawiec&show_icons=true&theme=dracula&locale=en&layout=compact" alt="kamil-krawiec" height="200"  />
+            <img align="center" 
+            src="https://github-readme-stats.vercel.app/api/top-langs?username=kamil-krawiec&show_icons=true&locale=en&layout=compact" 
+            alt="kamil-krawiec"
+            height=200
+            />
         </td>
         <td valign="top">
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=kamil-krawiec&show_icons=true&theme=dracula&locale=en" alt="kamil-krawiec" height="200"/>
         </td>
     </tr>
 </table>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=kamil-krawiec&label=Profile%20views&color=0e75b6&style=flat" alt="kamil-krawiec" /> </p>
