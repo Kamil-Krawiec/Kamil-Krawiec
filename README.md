@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Kamil</h1>
 <h3 align="center">A student of applied computer science</h3>
 
-- 🔭 I’m currently working on **udemy courses**
-
 - 🌱 I’m currently learning **Python/SQL/Tableau**
 
 - 🤝 I’m looking for help with **starting in data science field**
