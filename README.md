@@ -30,17 +30,17 @@
 </p>
 
 ## My github stats:
-<table>
+<table align="center">
     <tr>
         <td valign="top">
             <img align="center" 
-            src="https://github-readme-stats.vercel.app/api/top-langs?username=kamil-krawiec&show_icons=true&locale=en&layout=compact" 
+            src="https://github-readme-stats.vercel.app/api/top-langs?username=kamil-krawiec&show_icons=true&locale=en&" 
             alt="kamil-krawiec"
             height=200
             />
         </td>
         <td valign="top">
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=kamil-krawiec&show_icons=true&theme=dracula&locale=en" alt="kamil-krawiec" height="200"/>
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=kamil-krawiec&show_icons=true&locale=en" alt="kamil-krawiec" height="200"/>
         </td>
     </tr>
 </table>
