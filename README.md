@@ -1,47 +1,44 @@
-<h1 align="center">Hi 👋, I'm Kamil</h1>
-<h3 align="center">A student of applied computer science</h3>
+# 👋 Hi, I'm Kamil
 
-- 🌱 I’m currently learning **Python/SQL/Tableau**
+## Aspiring Data Analyst & Data Scientist
 
-- 🤝 I’m looking for help with **starting in data science field**
+A passionate learner from the field of Applied Computer Science, diving deep into data to uncover insights and drive business solutions.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/kamil-krawiec-599031246" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="kamil-krawiec-599031246" height="30" width="40" /></a>
-<a href="https://fb.com/kamil.krawiec888" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="kamil.krawiec888" height="30" width="40" /></a>
-<a href="https://instagram.com/kam_x3" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="kam_x3" height="30" width="40" /></a>
-</p>
+---
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.scala-lang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scala/scala-original.svg" alt="scala" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> </p>
+### 🌱 What I'm Focused On
 
+Currently enhancing my skills in **Python, SQL, and Tableau**, I am on a quest to harness the power of data. I'm especially interested in applying my knowledge in real-world projects that can make a difference.
 
+### 💡 Projects
 
+- **Data Analysis Portfolio:** A collection of my data analysis projects, showcasing my ability to extract, process, and visualize data. [View Repository](https://github.com/Kamil-Krawiec/Flappy-bird-AI)
+- **Machine Learning Models:** Demonstrates my skills in building and tuning models using Python and scikit-learn. [View Repository](https://github.com/Kamil-Krawiec/Neural-Network)
+- **SQL Database Projects:** Features my competency in database design, querying, and management using T-SQL/PLSQL. [View Repository](https://github.com/Kamil-Krawiec/Data-bases-and-data-warehouses)
+- **Reinforcement Learning AIGSF:** AIGSF (AI Game Solver Framework) is a framework that allows its users to train and test reinforcement learning models on various games [View Documentation](https://zpi-2023.readthedocs.io/en/latest/)
 
+### 🛠 Tech Stack
 
+I've worked with a variety of tools and technologies in the realm of data science:
 
+- **Programming Languages:** Python | SQL | Java | C++
+- **Data Analysis & Visualization:** pandas | seaborn | Tableau
+- **Machine Learning:** scikit-learn | TensorFlow
+- **Web Development:** HTML5 | CSS3 | Bootstrap | Django | Flask
+- **Version Control & Collaboration:** Git
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+### 🤝 Let's Connect
 
-<p>
+I'm looking to collaborate on projects and start my journey in the data science field. If you're interested in connecting, feel free to reach out through my social links below.
 
-</p>
+[LinkedIn](https://linkedin.com/in/kamil-krawiec-wroclaw) | [Facebook](https://fb.com/kamil.krawiec888) | [Instagram](https://instagram.com/kam_x3)
 
-## My github stats:
-<table align="center">
-    <tr>
-        <td valign="top">
-            <img align="center" 
-            src="https://github-readme-stats.vercel.app/api/top-langs?username=kamil-krawiec&show_icons=true&locale=en&" 
-            alt="kamil-krawiec"
-            height=200
-            />
-        </td>
-        <td valign="top">
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=kamil-krawiec&show_icons=true&locale=en" alt="kamil-krawiec" height="200"/>
-        </td>
-    </tr>
-</table>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=kamil-krawiec&label=Profile%20views&color=0e75b6&style=flat" alt="kamil-krawiec" /> </p>
+---
+
+## 📊 My GitHub Stats
+
+![Kamil's GitHub Stats](https://github-readme-stats.vercel.app/api?username=kamil-krawiec&show_icons=true&theme=radical)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kamil-krawiec&layout=compact&theme=radical)
+
+![Profile Views](https://komarev.com/ghpvc/?username=kamil-krawiec&color=blueviolet&style=flat-square)
