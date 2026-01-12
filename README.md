@@ -1,44 +1,91 @@
-# 👋 Hi, I'm Kamil
+<!--
+Profile README for: https://github.com/Kamil-Krawiec
+-->
 
-## Aspiring Data Analyst & Data Scientist
+<h1 align="center">Hi, I'm Kamil 👋</h1>
+<p align="center">
+  I build projects around <b>data engineering</b>, <b>automation</b> and <b>AI</b> — from quick prototypes to reproducible tools.
+  <br/>
+  Based in Wrocław, Poland.
+</p>
 
-A passionate learner from the field of Applied Computer Science, diving deep into data to uncover insights and drive business solutions.
+<p align="center">
+  <a href="https://kodzero.dev/">Website</a> •
+  <a href="https://github.com/Kamil-Krawiec">GitHub</a> •
+  <a href="https://www.linkedin.com/in/kamil-krawiec-wroclaw/">LinkedIn</a> •
+  <a href="mailto:kodzeroyt@gmail.com">kodzeroyt@gmail.com</a>
+</p>
 
----
-
-### 🌱 What I'm Focused On
-
-Currently enhancing my skills in **Python, SQL, and Tableau**, I am on a quest to harness the power of data. I'm especially interested in applying my knowledge in real-world projects that can make a difference.
-
-### 💡 Projects
-
-- **Data Analysis Portfolio:** A collection of my data analysis projects, showcasing my ability to extract, process, and visualize data. [View Repository](https://github.com/Kamil-Krawiec/Flappy-bird-AI)
-- **Machine Learning Models:** Demonstrates my skills in building and tuning models using Python and scikit-learn. [View Repository](https://github.com/Kamil-Krawiec/Neural-Network)
-- **SQL Database Projects:** Features my competency in database design, querying, and management using T-SQL/PLSQL. [View Repository](https://github.com/Kamil-Krawiec/Data-bases-and-data-warehouses)
-- **Reinforcement Learning AIGSF:** AIGSF (AI Game Solver Framework) is a framework that allows its users to train and test reinforcement learning models on various games [View Documentation](https://zpi-2023.readthedocs.io/en/latest/)
-
-### 🛠 Tech Stack
-
-I've worked with a variety of tools and technologies in the realm of data science:
-
-- **Programming Languages:** Python | SQL | Java | C++
-- **Data Analysis & Visualization:** pandas | seaborn | Tableau
-- **Machine Learning:** scikit-learn | TensorFlow
-- **Web Development:** HTML5 | CSS3 | Bootstrap | Django | Flask
-- **Version Control & Collaboration:** Git
-
-### 🤝 Let's Connect
-
-I'm looking to collaborate on projects and start my journey in the data science field. If you're interested in connecting, feel free to reach out through my social links below.
-
-[LinkedIn](https://linkedin.com/in/kamil-krawiec-wroclaw) | [Facebook](https://fb.com/kamil.krawiec888) | [Instagram](https://instagram.com/kam_x3)
+<p align="center">
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Kamil-Krawiec&style=flat" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-✔-informational" />
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-✔-informational" />
+  <img alt="SQL" src="https://img.shields.io/badge/SQL-✔-informational" />
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-✔-informational" />
+</p>
 
 ---
 
-## 📊 My GitHub Stats
+## 🚀 What I’m into
+- **Data pipelines & automation** (Docker-first, reproducible setups)
+- **Applied ML / optimization** (heuristics, multi-objective, experimentation)
+- **Developer-friendly tools** (simple APIs, good docs, CI)
 
-![Kamil's GitHub Stats](https://github-readme-stats.vercel.app/api?username=kamil-krawiec&show_icons=true&theme=radical)
+---
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kamil-krawiec&layout=compact&theme=radical)
+## ⭐ Featured projects
 
-![Profile Views](https://komarev.com/ghpvc/?username=kamil-krawiec&color=blueviolet&style=flat-square)
+### 🔊 Piper OpenAI TTS HTTP Server
+**FastAPI service** that wraps Piper into an **OpenAI-compatible** `/v1/audio/speech` endpoint (local or Docker), with **on-demand voice downloads + caching**.  
+👉 Repo: https://github.com/Kamil-Krawiec/piper-tts-http-server
+
+---
+
+### 🎓 Master’s thesis — Intelligent Data Generator (Data-filler)
+A tool to generate **synthetic data** tailored to database schemas (packaged + documented).  
+👉 Repo: https://github.com/Kamil-Krawiec/Data-filler  
+📦 PyPI: `intelligent-data-generator`
+
+---
+
+### 🧠 MS-RCPSP (Multi-Skill Resource-Constrained Project Scheduling)
+Optimization approach for **MS-RCPSP** using **Ant Colony Optimization (ACO)** and **NSGA-II** (multi-objective: cost vs duration).  
+👉 Repo: https://github.com/Kamil-Krawiec/MS-RCPSP
+
+---
+
+## 🧰 Toolbox
+**Languages:** Python, SQL, C++, Java  
+**Data/ML:** pandas, NumPy, scikit-learn, Jupyter  
+**Backend:** FastAPI, REST APIs  
+**Ops:** Docker, GitHub Actions  
+**Databases:** SQL / PL/SQL
+
+---
+
+## 📈 GitHub stats
+
+<p align="center">
+  <img height="160" src="./profile/cards/stats.svg" />
+  <img height="160" src="./profile/cards/top-langs.svg" />
+</p>
+
+<p align="center">
+  <img height="170" src="./profile/cards/streak.svg" />
+</p>
+
+<p align="center">
+  <img src="./profile/cards/trophy.svg" />
+</p>
+
+<p align="center">
+  <img src="./profile/cards/activity-graph.svg" />
+</p>
+
+---
+
+## 🤝 Let’s connect
+If you want to collaborate (data tools, automation, ML experiments) — ping me:
+- 🌐 https://kodzero.dev/
+- 💼 https://www.linkedin.com/in/kamil-krawiec-wroclaw/
+- ✉️ kodzeroyt@gmail.com
