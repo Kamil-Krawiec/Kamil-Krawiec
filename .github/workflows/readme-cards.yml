@@ -2,7 +2,7 @@ name: Update README cards
 
 on:
   schedule:
-    - cron: "10 0 * * *" # daily at 00:10 UTC
+    - cron: "10 0 * * *" # daily 00:10 UTC
   workflow_dispatch:
 
 permissions:
@@ -15,14 +15,13 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
 
       - name: Prepare output folder
         run: mkdir -p profile/cards
 
-      # --- github-readme-stats (generated via Action, committed as SVG) ---
+      # --- GitHub Readme Stats (generated in Actions, committed as SVG) ---
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
         with:
@@ -39,24 +38,52 @@ jobs:
           path: profile/cards/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # --- other widgets (download SVGs, commit to repo) ---
-      - name: Download streak / trophy / activity graph as SVGs
+      # --- External widgets (download as SVG safely, commit to repo) ---
+      - name: Download streak / trophy / activity graph (retry + keep last good)
+        shell: bash
         run: |
           set -euo pipefail
 
           USER="${{ github.repository_owner }}"
 
-          curl -fsSL -A "github-actions" \
-            "https://streak-stats.demolab.com?user=${USER}&type=svg" \
-            -o profile/cards/streak.svg
+          fetch_svg () {
+            local url="$1"
+            local out="$2"
+            local tmp
+            tmp="$(mktemp)"
 
-          curl -fsSL -A "github-actions" \
-            "https://github-profile-trophy.vercel.app/?username=${USER}&no-frame=true&row=1&column=7" \
-            -o profile/cards/trophy.svg
+            echo "Fetching: $url"
+            # retry on 5xx/timeouts; don't fail the whole job; keep last good file if fetch fails
+            if curl -fsSL -A "github-actions" \
+              --retry 6 --retry-all-errors --retry-delay 5 \
+              --connect-timeout 20 --max-time 90 \
+              "$url" -o "$tmp"; then
 
-          curl -fsSL -A "github-actions" \
-            "https://github-readme-activity-graph.vercel.app/graph?username=${USER}" \
-            -o profile/cards/activity-graph.svg
+              # basic sanity check: ensure we got an SVG, not HTML error page
+              if head -c 200 "$tmp" | grep -qi "<svg"; then
+                mv "$tmp" "$out"
+                echo "Saved -> $out"
+                return 0
+              else
+                echo "WARN: Response didn't look like SVG. Keeping existing: $out"
+                rm -f "$tmp"
+                return 0
+              fi
+            else
+              echo "WARN: Failed to fetch (service down?). Keeping existing: $out"
+              rm -f "$tmp"
+              return 0
+            fi
+          }
+
+          fetch_svg "https://streak-stats.demolab.com?user=${USER}&type=svg" \
+            "profile/cards/streak.svg"
+
+          fetch_svg "https://github-profile-trophy.vercel.app/?username=${USER}&no-frame=true&row=1&column=7" \
+            "profile/cards/trophy.svg"
+
+          fetch_svg "https://github-readme-activity-graph.vercel.app/graph?username=${USER}" \
+            "profile/cards/activity-graph.svg"
 
       - name: Commit and push if changed
         run: |
